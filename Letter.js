@@ -10,7 +10,7 @@ var Letter = function (character)
         if (this.isLetterGuessed)
             return this.character;
         else
-            return '_';
+            return '_ ';
     }
 
     //method to check if letter guessed correctly
